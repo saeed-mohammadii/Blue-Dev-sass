@@ -1,0 +1,33 @@
+.footer{
+    background: var(--primary-color-light);
+    // padding-top: 8rem;
+    margin-top: 4rem;
+    &-container{
+        gap: 1.5rem;
+        // justify-content: center;
+    }
+    &-info{
+        text-align: center;
+    }
+    &-menu,&-icons{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+    &-link{
+        color: var(--title-color);
+        font-weight: bold;
+    }
+    &-icon{
+        font-size: 2.4rem;
+        color: var(--primary-color);
+    }
+    span{
+        color: #085f99;
+    }
+    #date{
+        color: var(--title-color); 
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+}

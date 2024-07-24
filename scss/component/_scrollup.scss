@@ -1,0 +1,21 @@
+.scrollup {
+  position: fixed;
+  background: var(--primary-color);
+  color: var(--container-color);
+  right: 2rem;
+  bottom: 3rem;
+  padding: 0.5rem 0.5rem 0.3rem 0.5rem;
+  font-size: 1.3rem;
+  border-radius: 0.5rem;
+  transition: all 0.4s;
+  opacity: 0.8;
+  display: none;
+  &:hover {
+    background: var(--container-color);
+    outline: 1px solid var(--primary-color);
+    color: var(--primary-color);
+  }
+}
+.show-scroll{
+    display: inline-block;
+}

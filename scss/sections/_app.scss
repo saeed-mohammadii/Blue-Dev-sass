@@ -1,0 +1,16 @@
+.app{
+    &-container{
+        gap: 3rem;
+    }
+    &-info{
+        text-align: center;
+    }
+    &-discription{
+        margin-bottom: 2rem;
+    }
+    &-btn{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
